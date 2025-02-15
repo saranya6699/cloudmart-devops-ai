@@ -12,7 +12,7 @@ spec:
       labels:
         app: cloudmart-frontend-app
     spec:
-      serviceAccountName: cloudmart-pod-execution-role
+      serviceAccountName: cloudmart-pod-execution-new-role
       containers:
       - name: cloudmart-frontend-app
         image: CONTAINER_IMAGE
